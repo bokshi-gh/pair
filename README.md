@@ -1,15 +1,15 @@
 # pair
 
-A simple generic pair struct in C.
+A lightweight generic pair template in C++.
 
 ## Overview
 
-This library defines a `pair` struct where both members (`first` and `second`) are `void*` pointers.  
-It allows storing any type of data via pointers.
+This header defines a simple, type-safe `pair` template that can store two values of arbitrary types.  
+It works similarly to `std::pair`, providing `first` and `second` members for accessing stored values.
 
 ## Example Usage
 
-Check the following files for usage examples:
+Refer to the following files for examples and implementation details:
 
-- `include/pair.h` – struct definition and documentation  
-- `src/main.c` – example code demonstrating how to use the `pair` struct
+- `include/pair.hpp` – template definition and documentation  
+- `src/main.cpp` – example demonstrating how to create and use a `pair`
