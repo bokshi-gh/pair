@@ -1,24 +1,22 @@
 /*
- * pair.hpp
- * Simple generic pair template in C++
+ * pair.h
+ * Simple generic pair struct in C
  *
  * Description:
- *   This header defines a lightweight, generic `pair` template
- *   similar to `std::pair`. It can hold two values of arbitrary
- *   types, accessible through `first` and `second` members.
+ *   This header defines a simple "pair" struct where both members
+ *   (`first` and `second`) are `void*` pointers. It allows you to
+ *   store any type of data by storing the address of the variable.
  *
- * Repository:
+ * Source code:
  *   https://github.com/bokshi-gh/pair
  *
  * Copyright (c) 2025 Rajesh Thapa
  * All rights reserved.
  */
 
-
 #pragma once
 
-template <typename T1, typename T2>
-struct pair {
-    T1 first;
-    T2 second;
-};
+typedef struct {
+    void *first;
+    void *second;
+} pair;
