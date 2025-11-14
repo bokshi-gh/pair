@@ -2,7 +2,7 @@
 #include "pair.h"
 
 int main() {
-    pair p;           // create a pair to hold two values
+    Pair p;           // create a pair to hold two values
 
     int num = 69;
 
