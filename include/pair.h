@@ -3,7 +3,7 @@
  * Simple generic pair struct in C
  *
  * Description:
- *   This header defines a simple "pair" struct where both members
+ *   This header defines a simple "Pair" struct where both members
  *   (`first` and `second`) are `void*` pointers. It allows you to
  *   store any type of data by storing the address of the variable.
  *
@@ -19,4 +19,4 @@
 typedef struct {
     void *first;
     void *second;
-} pair;
+} Pair;
