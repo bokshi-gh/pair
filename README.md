@@ -1,4 +1,4 @@
-# pair
+# Pair
 
 A simple generic pair struct in C.
 
@@ -7,9 +7,9 @@ A simple generic pair struct in C.
 This library defines a `pair` struct where both members (`first` and `second`) are `void*` pointers.  
 It allows storing any type of data via pointers.
 
-## Example Usage
+## Getting Started
 
-Check the following files for usage examples:
+Check the following files:
 
 - `include/pair.h` – struct definition and documentation  
 - `src/main.c` – example code demonstrating how to use the `pair` struct
