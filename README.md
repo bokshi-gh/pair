@@ -11,5 +11,5 @@ It allows storing any type of data via pointers.
 
 Check the following files:
 
-- `include/pair.h` – struct definition and documentation  
-- `src/main.c` – example code demonstrating how to use the `Pair` struct
+- `include/pair.h` – Struct definition 
+- `src/main.c` – Example code demonstrating how to use the `Pair` struct.
